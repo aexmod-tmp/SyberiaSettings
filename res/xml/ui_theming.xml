@@ -45,6 +45,13 @@
         android:entryValues="@array/switch_style_values"
         android:defaultValue="1" />
 
+    <com.evolution.settings.preference.SystemSettingListPreference
+         android:key="systemui_plugin_volume"
+         android:title="@string/volume_panel"
+         android:entries="@array/volume_panel_entries"
+         android:entryValues="@array/volume_panel_values"
+         android:defaultValue="@string/volume_panel_aosp_val" />
+
     <com.syberia.settings.preference.SystemSettingListPreference
         android:key="qs_panel_bg_use_new_tint"
         android:title="@string/qs_bg_use_new_tint"
